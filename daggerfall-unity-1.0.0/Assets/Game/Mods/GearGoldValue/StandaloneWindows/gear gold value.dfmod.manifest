@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 574047737
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e1a9f2de4cb8012902a3328a13c257be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7579feb4afd6aab513e2576ee96e6b63
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Game/Mods/GearGoldValue/Textures/206_8-0.png
+- Assets/Game/Mods/GearGoldValue/GearGoldValue.dfmod.json
+Dependencies: []
