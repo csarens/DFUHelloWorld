@@ -305,6 +305,7 @@ GameObject:
   - component: {fileID: 97801940}
   - component: {fileID: 97801938}
   - component: {fileID: 97801944}
+  - component: {fileID: 97801942}
   m_Layer: 0
   m_Name: DaggerfallUI
   m_TagString: Untagged
@@ -455,6 +456,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &97801942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97801937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03fb4947942f02d4180041a6c935dee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &97801944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2088,13 +2101,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runtimeInternalStrings: Internal_Strings
   runtimeRSCStrings: Internal_RSC
-  runtimeBOKStrings: Internal_BOK
   runtimeFlatStrings: Internal_Flats
+  runtimeQuestsStrings: Internal_Quests
+  runtimeLocationsStrings: Internal_Locations
+  runtimeSettingsStrings: Internal_Settings
+  runtimeSpellsStrings: Internal_Spells
+  runtimeItemsStrings: Internal_Items
+  runtimeMagicItemsStrings: Internal_MagicItems
+  runtimeFactionsStrings: Internal_Factions
   tableCopyOverwriteTargetStringTables: 0
   tableCopyTargetInternalStrings: 
   tableCopyTargetRSCStrings: 
   tableCopyTargetBOKStrings: 
   tableCopyTargetFlatStrings: 
+  tableCopyTargetLocationStrings: 
 --- !u!4 &1437448955
 Transform:
   m_ObjectHideFlags: 0
